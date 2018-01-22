@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": false,
+    "rootDir": ".",
+    "removeComments": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

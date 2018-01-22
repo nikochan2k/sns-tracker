@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "tslint-microsoft-contrib"
+  ],
+  "rules": {
+    "align": false,
+    "binary-expression-operand-order": false,
+    "export-name": false,
+    "import-name": false,
+    "missing-jsdoc": false,
+    "mocha-no-side-effect-code": false,
+    "no-any": false,
+    "no-console": false,
+    "no-import-side-effect": false,
+    "no-increment-decrement": false,
+    "no-parameter-reassignment": false,
+    "no-redundant-jsdoc": false,
+    "no-relative-imports": false,
+    "no-require-imports": false,
+    "no-void-expression": false,
+    "ordered-imports": false,
+    "promise-function-async": false,
+    "typedef": [
+      true
+    ]
+  }
+}
