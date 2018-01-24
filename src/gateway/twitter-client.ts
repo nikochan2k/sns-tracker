@@ -1,16 +1,12 @@
 import * as Twitter from 'twitter';
+import { key } from '../key';
 
 export class TwitterClient {
 
   private client: any;
 
   constructor() {
-    this.client = new Twitter({
-      consumer_key: '7bDCLXzQwkVXn0LsF0HR1c86B',
-      consumer_secret: 'DuQTOedJyQ4ddkfeT8xNLTiTEz6CwJAbs8ymeCOyLsWDb2cHeX',
-      access_token_key: '953883527136796672-1J8ol16IasDqJae6qK94YwR03Jkq6za',
-      access_token_secret: 'q0cOAT1w0sUmm5BU1X3NPF5PfOdgI5gco4VjWFakuMrNm',
-    });
+    this.client = new Twitter(key);
   }
 
   public async searchTweets(geocode: string, maxId?: number) {
